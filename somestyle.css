@@ -32,8 +32,9 @@ a#blop {
 }
 
 img {
+  display: block;
   margin: auto;
-  width: 80%;
+  width: 25%;
   border: 1px double #666;
   border-radius: 2px;
 }
@@ -41,4 +42,8 @@ img {
 #whale {
   width: 80%;
   margin: auto;
+}
+
+p {
+  text-align: center;
 }
