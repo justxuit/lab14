@@ -1,0 +1,44 @@
+body {
+  font-family: 'Comfortaa', cursive;
+}
+
+nav {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  width: 30%;
+  margin: auto;
+  letter-spacing: 3px;
+  word-spacing: 6px;
+  text-align: center;
+}
+
+a {
+  text-decoration:none;
+  font-weight: bolder;
+}
+
+a#blep {
+  color: red;
+}
+
+a#blop {
+  color: blue;
+}
+
+.wrap {
+  width: 25%;
+  margin: auto;
+}
+
+img {
+  margin: auto;
+  width: 80%;
+  border: 1px double #666;
+  border-radius: 2px;
+}
+
+#whale {
+  width: 80%;
+  margin: auto;
+}

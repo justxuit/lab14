@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="catDogApp">
+<head>
+  <title>Blep/Blop</title>
+  <link rel = "stylesheet" type = "text/css" href = "somestyle.css"/>
+
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+      <a href="#/cat" id="blep">Blep</a> //
+      <a href="#/dog" id="blop">Blop</a> //
+      <a href="#/catdog" id="bleop">Bleop</a>
+  </nav>
+  <br/>
+  <div id="soon" ng-view="">SOON(tm).</div>
+
+
+  <script src="libs/angular.min.js"></script>
+  <script src="libs/angular-route.min.js"></script>
+  <script src="libs/module.js"></script>
+
+</body>
+</html>
